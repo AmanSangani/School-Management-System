@@ -2,6 +2,9 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import LoginPage from './pages/LoginPage';
+import Homepage from './pages/Homepage';
+import ChooseUser from './pages/ChooseUser';
+
 
 function App() {
   const { currentRole } = useSelector(state => state.user);
